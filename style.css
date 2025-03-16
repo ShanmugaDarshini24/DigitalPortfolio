@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&family=Yeseva+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: white;
+    position: fixed;
+    width: 100%;
+    border-bottom: #3333332c 0.3px solid;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 38px;
+    font-weight: 300;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.buttons button {
+    border: 1px solid black;
+    background: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 300px;
+}
+.hero h1 {
+    font-size: 60px;
+    font-weight: 300;
+    padding: 20px;
+}
+.hero p {
+    font-size: 25px;
+    font-weight: 200;
+    padding-bottom: 100px;
+}
+
+
+.about{
+    padding-top: 140px;
+    padding-bottom: 130px;
+}
+.about_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    max-width: 385px;
+}
+.about_flex{
+    padding-left: 275px;
+    padding-right: 275px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_flex img{
+    border-radius: 10px;
+}
+.about_text{
+    font-size: 19px;
+    font-weight: 300;
+    text-align: justify;
+    max-width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.education{
+    padding-top: 140px;
+    padding-bottom: 130px;
+    background-color: white;
+}
+.education_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.education_text_flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 275px;
+    padding-right: 275px;
+}
+.education_text{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+
+.projects{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.project_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.project_content_flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 275px;
+    padding-right: 275px;
+    gap: 75px;
+}
+.project_text_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+
+.skills{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.skill_content{
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    font-size: 19px;
+    font-weight: 300;
+    flex-wrap: wrap;
+    padding-left: 275px;
+    padding-right: 275px;
+    justify-content: space-evenly;
+}
+.skill_content_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.skill_content_flex img{
+    border-radius: 10px;
+}
+
+
+.contact{
+    padding-top: 120px;
+    padding-bottom: 150px;
+    background-color: white;
+}
+.contact_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.contact_text{
+    font-size: 19px;
+    font-weight: 300;
+}
+.msg_btn{
+    border: 1px solid #000000;
+    background: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+
+.footer{
+    background-color: white;
+    padding: 40px;
+}
+.footer_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
